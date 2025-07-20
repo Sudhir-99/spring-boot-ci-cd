@@ -53,8 +53,8 @@ public class UserController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping("/health")
+    /*@GetMapping("/health")
     public String health(){
         return "UP";
-    }
+    }*/
 }
