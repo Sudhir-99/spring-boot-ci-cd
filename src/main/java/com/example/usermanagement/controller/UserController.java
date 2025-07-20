@@ -52,4 +52,9 @@ public class UserController {
         userRepository.deleteById(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/health")
+    public String health(){
+        return "UP";
+    }
 }
