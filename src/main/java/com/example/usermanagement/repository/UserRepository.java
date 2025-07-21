@@ -11,6 +11,7 @@ public class UserRepository {
     private final Map<String, User> users = new HashMap<>();
 
     public List<User> findAll() {
+        System.out.println("findAll users called");
         return new ArrayList<>(users.values());
     }
 
