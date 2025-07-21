@@ -58,8 +58,8 @@ public class UserController {
         return "UP";
     }
 
-    @GetMapping("/greeting")
+   /* @GetMapping("/greeting")
     public String sendGreetings(){
         return "Hello, Good morning";
-    }
+    }*/
 }
