@@ -57,4 +57,10 @@ public class UserController {
     public String health(){
         return "UP";
     }
+
+
+    @GetMapping("/greeting")
+    public String sendGreetings(){
+        return "Hello, Good morning";
+    }
 }
